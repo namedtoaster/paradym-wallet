@@ -195,6 +195,7 @@ const createBaseConfig = (appSpecific) => {
         {
           cameraPermission:
             '$(PRODUCT_NAME) uses the camera to scan invitation QR-codes, allowing you to receive or share cards from your wallet.',
+          microphonePermission: false,
         },
       ],
       [
